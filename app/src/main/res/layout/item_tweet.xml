@@ -18,6 +18,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="5dp"
         android:layout_toEndOf="@+id/ivProfileImage"
+        android:fontFamily="sans-serif-black"
         android:textStyle="bold"
         tools:text="Name" />
 
@@ -29,6 +30,7 @@
         android:layout_centerVertical="true"
         android:layout_marginStart="5dp"
         android:layout_toEndOf="@+id/tvName"
+        android:fontFamily="sans-serif-medium"
         android:text="TextView"
         tools:text="rpandey1234" />
 
@@ -40,6 +42,16 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="2dp"
         android:layout_toEndOf="@+id/ivProfileImage"
+        android:fontFamily="sans-serif"
         tools:text="This is my tweet!!!" />
+
+    <TextView
+        android:id="@+id/tvTimeSince"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@+id/tvScreenName"
+        android:fontFamily="sans-serif-medium"
+        tools:text="- 5m" />
 
 </RelativeLayout>
